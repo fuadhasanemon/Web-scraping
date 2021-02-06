@@ -13,7 +13,8 @@ Before you start scraping, you will have to set up a new Scrapy project. Enter a
 
 ## This will create a tutorial directory with the following contents:
 
-` tutorial/
+`   
+    tutorial/
     scrapy.cfg            # deploy configuration file
 
     tutorial/             # project's Python module, you'll import your code from here
@@ -28,10 +29,11 @@ Before you start scraping, you will have to set up a new Scrapy project. Enter a
         settings.py       # project settings file
 
         spiders/          # a directory where you'll later put your spiders
-            __init__.py `
+            __init__.py 
+            `
 
 
 # How to run our spider
-To put our spider to work, go to the project’s top level directory and run:
+### To put our spider to work, go to the project’s top level directory and run:
 
 `scrapy crawl quotes`
